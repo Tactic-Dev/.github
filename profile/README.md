@@ -18,6 +18,8 @@ Our mission:
 
 ## 🐧 Tux — Linux Custodian AI Agent
 
+<img src="https://raw.githubusercontent.com/Tactic-Dev/tux-chat/main/Tux.png" align="right" width="200" alt="Tux the Linux Penguin">
+
 Meet **[Tux](https://github.com/Tactic-Dev/tux-chat)**, a secure, LLM-powered **Linux system administrator** that understands natural language and executes system tasks safely.
 
 Instead of memorizing terminal commands, you tell Tux **what you need** — and it plans, validates, and executes securely.
@@ -35,6 +37,8 @@ Instead of memorizing terminal commands, you tell Tux **what you need** — and 
 - 🧠 **Multi-Step Planning** — LLM generates execution plans with reasoning before acting  
 
 Tux embodies our philosophy: **powerful automation without compromising security**.
+
+<br clear="right"/>
 
 ---
 
