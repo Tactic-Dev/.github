@@ -1,0 +1,9 @@
+{
+  "name": "Tactic Dev CI Workflow",
+  "description": "Standard CI workflow template following GitHub Actions best practices. Minimal, clean, and ready to extend.",
+  "iconName": "example-icon",
+  "categories": [
+    "automation",
+    "ci"
+  ]
+}
