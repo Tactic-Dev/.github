@@ -1,0 +1,9 @@
+{
+  "name": "Tactic Dev Rust CI",
+  "description": "Standard Rust CI workflow with formatting, linting, building, and testing. Includes cargo caching for faster builds.",
+  "iconName": "rust",
+  "categories": [
+    "rust",
+    "ci"
+  ]
+}
