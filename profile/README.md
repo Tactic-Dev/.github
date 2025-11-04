@@ -38,22 +38,6 @@ Tux embodies our philosophy: **powerful automation without compromising security
 
 ---
 
-## 🧶 Loom-Lang — An AI-Powered Programming Language
-
-We invented **[Loom-Lang](https://github.com/Tactic-Dev/loom-lang)**, an experimental, AI-driven programming language for **declarative automation**.
-
-Instead of writing code line-by-line, you declare **what** you want — and Loom figures out **how** to make it happen.
-
-### ✨ Key Features
-- 🤖 **AI Interpreter** — Built on Gemini AI, converts natural language into executable Python  
-- 🧠 **Self-Teaching Core** — Learns from your scripts and creates new commands automatically  
-- 🔒 **Permission-Based Security** — Explicit intent declarations prevent unsafe actions  
-- 🧩 **Declarative Syntax** — High-level, readable, and automation-first  
-
-Loom-Lang represents our core philosophy: make code expressive, adaptive, and alive.
-
----
-
 ## 💼 What We Do
 
 - Full-stack web & app development  
@@ -90,7 +74,6 @@ Come talk ideas, share experiments, or collaborate on new tools.
 
 - [🌐 tacticdev.com](https://tacticdev.com)  
 - [🐧 Tux on GitHub](https://github.com/Tactic-Dev/tux-chat)  
-- [🧶 Loom-Lang on GitHub](https://github.com/Tactic-Dev/loom-lang)  
 - [👤 Tyler Hill](https://github.com/tyy130)
 
 ---
