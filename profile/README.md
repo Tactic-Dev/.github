@@ -18,7 +18,7 @@ Our mission:
 
 ## 🐧 Tux — Linux Custodian AI Agent
 
-<img src="https://raw.githubusercontent.com/Tactic-Dev/tux-chat/main/Tux.png" align="right" width="200" alt="Tux the Linux Penguin">
+<img src="https://private-user-images.githubusercontent.com/125935757/509562469-4aa8100f-537b-4da0-aea8-1d43b1ca7afd.png" align="right" width="200" alt="Tux the Linux Penguin">
 
 Meet **[Tux](https://github.com/Tactic-Dev/tux-chat)**, a secure, LLM-powered **Linux system administrator** that understands natural language and executes system tasks safely.
 
