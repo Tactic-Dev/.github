@@ -29,7 +29,6 @@ if [[ ! "$TIER" =~ ^tier[1-3]$ ]]; then
 fi
 
 # Check if ruleset file exists
-RULESET_PATTERN="${RULESETS_DIR}/${TIER}-*.json"
 RULESET_FILE=""
 for file in ${RULESETS_DIR}/${TIER}-*.json; do
     if [ -f "$file" ]; then
@@ -39,7 +38,7 @@ for file in ${RULESETS_DIR}/${TIER}-*.json; do
 done
 
 if [ -z "$RULESET_FILE" ]; then
-    echo -e "${RED}Error: Ruleset file not found matching pattern: ${TIER}-*.json${NC}"
+    echo -e "${RED}Error: No ruleset file found matching: ${RULESETS_DIR}/${TIER}-*.json${NC}"
     exit 1
 fi
 
