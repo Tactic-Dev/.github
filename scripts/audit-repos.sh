@@ -21,7 +21,13 @@ NC='\033[0m' # No Color
 
 # Redirect output if file specified
 if [ -n "$OUTPUT_FILE" ]; then
-    exec > >(tee "$OUTPUT_FILE")
+    # Use exec redirection in a way compatible with more shells
+    if [ -w "$(dirname "$OUTPUT_FILE")" ] || [ ! -e "$OUTPUT_FILE" ]; then
+        exec > "$OUTPUT_FILE" 2>&1
+    else
+        echo "Error: Cannot write to $OUTPUT_FILE"
+        exit 1
+    fi
 fi
 
 echo "# Tactic Dev Repository Documentation Audit"
